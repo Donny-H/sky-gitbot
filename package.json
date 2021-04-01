@@ -1,0 +1,24 @@
+{
+  "name": "sky-gitbot",
+  "version": "1.0.0",
+  "description": "A telegram bot for Skycoin which automatically posts Git commits and other event updates in the chat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Donny-H/sky-gitbot.git"
+  },
+  "author": "Donny-H",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Donny-H/sky-gitbot/issues"
+  },
+  "homepage": "https://github.com/Donny-H/sky-gitbot#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.52.0"
+  }
+}
